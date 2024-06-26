@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.list{
+    display: flex;
+    gap: 25px;
+}
+.list a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.552);
+}
+.tit{
+    border-bottom: 5px solid red;
+}
+.btn1{
+    border: none;
+    padding: 7px;
+    padding-inline: 20px;
+    border-radius: 7px;
+    color: red;
+    
+    border: 2px solid white;
+}
+.section1{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.part1 h1{
+    color: #314584;
+    font-size:55px;
+    font-weight: 650;
+}
+.part1 p{
+    color: grey;
+    font-size: small;
+}
+.btn2{
+    border: none;
+    padding: 10px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    padding-inline: 20px;
+}
+.btn3{
+    border: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    color: blue;
+    padding-inline: 20px;
+}
+.section2{
+    padding-top: 50px;
+    padding-inline:162px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card1 h1{
+    color: blue;
+    font-weight: 600;
+}
+.card2{
+    background-color: red;
+    /* padding-inline: 26px; */
+    padding: 26px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: white;
+    box-shadow: 10px 10px 8px hsl(0, 0%, 95%);
+    border: 1px solid white;
+}
+.card2 h1{
+    color: blue;
+}
+.card2 p{
+    color: grey;
+    font-size: medium;
+}
