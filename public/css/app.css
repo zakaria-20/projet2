@@ -100,3 +100,107 @@
     color: grey;
     font-size: medium;
 }
+
+
+
+
+
+
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+    gap: 2vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact{
+padding-right:47.5vw ; 
+display: flex;
+flex-direction: column;
+gap: 1vh;
+}
+.contact h2{
+    color: rgb(49, 69, 132);
+}
+.contact p{
+    color: rgb(255, 58, 71);
+}
+input{
+    width: 25vw ;
+    height: 5vh;
+    background-color: hsl(204, 83%, 98%);
+}
+textarea{
+    background-color: hsl(204, 83%, 98%);
+}
+
+.input{
+    display: flex;
+    gap: 5vw;
+}
+.button{
+    background-color: hsl(356, 100%, 61%);
+    color: white;
+    width: 20vw;
+    border-radius: 20px;
+    border: none;
+    margin-left: 19vw;
+    padding: 10px;
+}
+footer{
+    background-color:hsl(226, 46%, 35%) ;
+   padding-bottom: 8vh;
+   padding-top: 5vh;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    color: white;
+}
+.footer h2{
+    color: rgb(255, 58, 71);
+
+}
+ul{
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    /* background: #3B5998; */
+    color: white;
+    padding-left: 41.5vw;
+  }
+  
+  .fa-twitter {
+    /* background: #3B5998; */
+    
+    color: white;
+  }
+  .fa-dribbble {
+    /* background: #ea4c89; */
+    color: white;
+  }
